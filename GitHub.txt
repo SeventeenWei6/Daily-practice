@@ -1,0 +1,76 @@
+$ git rm -r --cached PrintTask 删除 PrintTask 文件夹（不会删除本地克隆仓库的文件夹）；
+$ git commit -m '删除了PrintTask' 提交添加操作说明。
+$ git push -u origin master 将本次更改更新到github项目上去，删除完毕。
+
+ git add tet.txt 添加文件
+
+
+ssh root@121.199.20.231
+云服务器密码:
+ZHANGwei666.
+远程连接密码
+277376
+
+orcal密码
+GODwei666.
+
+记录几个MySQL常用命令
+重启：systemctl restart mysqld.service
+
+停止：systemctl stop mysqld.service
+
+查看状态：systemctl status mysqld.service
+
+阿里云mysql
+root1
+root
+
+#启动mysql
+$ service mysqld start
+#关闭mysql
+$ service mysqld stop
+#查看运行状态
+$ service mysqld status
+#重启mysql
+service mysqld restart
+
+vim  ~~~
+i (插入)
+ESC + :WQ （退出并且保存）
+pwd  (复制当前目录)
+
+重启 tracker
+[root@izbp1hxps1f8acxqarzgjcz ~]# cd /usr/bin
+[root@izbp1hxps1f8acxqarzgjcz bin]# ./fdfs_trackerd /etc/fdfs/tracker.conf
+[root@izbp1hxps1f8acxqarzgjcz bin]# ./fdfs_trackerd /etc/fdfs/tracker.conf restart  
+重启storage
+[root@izbp1hxps1f8acxqarzgjcz bin]# ./fdfs_storaged /etc/fdfs/storage.conf
+[root@izbp1hxps1f8acxqarzgjcz bin]# ./fdfs_storaged /etc/fdfs/storage.conf restart
+重启nginx
+[root@izbp1hxps1f8acxqarzgjcz bin]# cd /usr/local
+[root@izbp1hxps1f8acxqarzgjcz local]# cd nginx/sbin
+[root@izbp1hxps1f8acxqarzgjcz sbin]# ./nginx -s reload
+#启动docker
+service docker start
+
+Registry登录密码
+godwei666.
+
+网易邮箱
+zhangwei@stu.xupt.edu.cn
+godwei6.
+
+ZhangWei20000707
+godwei666
+
+JetBrains帐户
+zhangPeterYa
+godwei666.
+SC3MVWKNPK
+
+
+
+
+
+
+
